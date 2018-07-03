@@ -174,3 +174,28 @@ body {
 {
     margin-top: 40px;
 }
+#map
+{
+    text-align: left;
+    margin-bottom:30px; 
+}
+#right-margin
+{
+    margin-right:40px; 
+}
+#align-form
+{
+    text-align: center;
+    margin-top: 200px;
+}
+#align-send
+{
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    background-color: black;
+    color: white;
+   
+
+}

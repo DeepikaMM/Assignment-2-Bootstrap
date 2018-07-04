@@ -160,6 +160,11 @@ body {
 {
     text-align: center;
 }
+#image
+{
+    width: 80%;
+    height:80%;
+}
 #align
 {
     text-align: center;
@@ -199,3 +204,23 @@ footer{
    
 
 }
+#bg-color
+{
+    margin-top: 20px;
+    margin-right:20px;
+   
+}
+ul{
+    list-style-type: none;
+  
+    
+}
+#align-center
+{
+    text-align: center;
+}
+#top-margin
+{
+    margin-top: 40px;
+}
+

@@ -1,18 +1,4 @@
-/*
 
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
-
-
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
 #features {
     text-align: center;
     margin: 0 0 20px;
@@ -24,10 +10,6 @@ Notes:	 Hand coded for Udemy.com
     height: 60px;
 }
 
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -42,9 +24,6 @@ body {
     margin :0 20px 10px 0;
 }
 
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
 #searchInput {
     width: 200px; 
 }
@@ -77,31 +56,23 @@ body {
 }
 #slide1 {
     background: url('../../images/g1.jpg') top center no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #slide2 {
     background: url('../../images/g5.jpeg') top center no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 #slide3 {
     background: url('../../images/g4.png') top center no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
-
-
-
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
+    
 	
 }
 
@@ -109,6 +80,7 @@ body {
 @media (max-width: 768px) {
     #mycarousel .item {
         height: 310px;
+        font-size:10px;
     }
     #slide1 {
         background: url('../../images/g1.jpg') top center no-repeat;
@@ -128,7 +100,7 @@ body {
 	#slide1,
     #slide2,
     #slide3 {
-        background-size: 100%;
+        background-size: 100% 100%;
     }
 }
 

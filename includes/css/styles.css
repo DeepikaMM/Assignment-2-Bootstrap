@@ -160,16 +160,13 @@ body {
 {
     text-align: center;
 }
-#image
-{
-    width: 80%;
-    height:80%;
-}
+
 #align
 {
     text-align: center;
     margin-top: 15px;
 }
+
 .color-change
 {
     color:rgb(28, 150, 226);
@@ -210,6 +207,7 @@ footer{
     margin-right:20px;
    
 }
+
 ul{
     list-style-type: none;
   

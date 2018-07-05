@@ -112,21 +112,27 @@
     #slide3 {
       background-size: 100% 100%;
     }
-    #auto{
-
-    height: auto;
-    }
+   
     #myFooter {
         text-align: center;
     }
     #myFooter .row {
         margin: 0;
     }
+    #align-padding {
+      height: 700px;
+    }
   }
   
   
   /* Large desktop */
-  
+  @media (min-width:992px)
+  {
+#auto
+{
+  height:500px;
+}
+  }
   @media (min-width: 1200px) {
     #mycarousel .item {
       height: 500px;
@@ -135,6 +141,9 @@
     #slide2,
     #slide3 {
       background-size: 100%;
+    }
+    #align-padding {
+      height: 400px;
     }
   }
   
@@ -163,6 +172,10 @@
   #map {
     text-align: left;
     margin-bottom: 30px;
+  }
+  .align-justify
+  {
+    margin-top: 10px;
   }
   
   #right-margin {
@@ -216,6 +229,7 @@
 #myFooter .row {
     margin: 0 85px;
 }
+
 
 #myFooter .container {
     width: auto;
